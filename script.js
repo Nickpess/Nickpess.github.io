@@ -1,14 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
 
-<body>
-<style>
-        <script>if (confirm("Welcome to Fun National Parks!") == true) {
-    txt = "You pressed OK!";
-} else {
-    txt = "You pressed Cancel!";
+<h2>JavaScript Confirm Box</h2>
+
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var txt;
+    if (confirm("Press a button!") == true) {
+        txt = "You pressed OK!";
+    } else {
+        txt = "You pressed Cancel!";
+    }
+    document.getElementById("demo").innerHTML = txt;
 }
-<script/>
-table, th, td {
-    border: 1px solid black;
-}
-</style>
-<body>
+</script>
+
+</body>
+</html>
