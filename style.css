@@ -28,22 +28,6 @@ table {
 
          } 
 
-td {
-
-       border: 1px solid #ffffff;
-
-       text-align:center;
-
-       background-color:#9FB6CD;
-
-    }
-
-th {
-
-       text-align:center;
-
-       color:#ffffff;
-
-       background-color:#82a43a;
-
-   }
+.page-wrap { background: white; }
+footer { background: black; }
+.almonds { background: blanchedAlmond; }
